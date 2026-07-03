@@ -1,0 +1,102 @@
+[
+  {
+    "MPID": "mp-973433",
+    "Formula": "LuRu2Sc",
+    "N_atoms": 4,
+    "Gap (eV)": "0.0000",
+    "Hirshfeld_mean": "0.0000",
+    "Hirshfeld_std": "0.1499",
+    "Hirshfeld_i_mean": "0.0000",
+    "Hirshfeld_i_std": "0.7605"
+  },
+  {
+    "MPID": "mp-2350",
+    "Formula": "LaS",
+    "N_atoms": 2,
+    "Gap (eV)": "0.0000",
+    "Hirshfeld_mean": "0.0000",
+    "Hirshfeld_std": "0.1773",
+    "Hirshfeld_i_mean": "0.0000",
+    "Hirshfeld_i_std": "0.7348"
+  },
+  {
+    "MPID": "mp-1080455",
+    "Formula": "Cu2Ti2As2Si2",
+    "N_atoms": 8,
+    "Gap (eV)": "0.0000",
+    "Hirshfeld_mean": "0.0000",
+    "Hirshfeld_std": "0.1711",
+    "Hirshfeld_i_mean": "0.0000",
+    "Hirshfeld_i_std": "2.0556"
+  },
+  {
+    "MPID": "mp-552738",
+    "Formula": "Bi2TmIO4",
+    "N_atoms": 8,
+    "Gap (eV)": "0.0000",
+    "Hirshfeld_mean": "-0.0000",
+    "Hirshfeld_std": "0.3941",
+    "Hirshfeld_i_mean": "-0.0000",
+    "Hirshfeld_i_std": "2.0198"
+  },
+  {
+    "MPID": "mp-517",
+    "Formula": "Ta3Si6",
+    "N_atoms": 9,
+    "Gap (eV)": "0.0000",
+    "Hirshfeld_mean": "-0.0000",
+    "Hirshfeld_std": "0.1188",
+    "Hirshfeld_i_mean": "0.0000",
+    "Hirshfeld_i_std": "1.2244"
+  },
+  {
+    "MPID": "mp-12776",
+    "Formula": "FeTlS2",
+    "N_atoms": 4,
+    "Gap (eV)": "0.0000",
+    "Hirshfeld_mean": "-0.0000",
+    "Hirshfeld_std": "0.1775",
+    "Hirshfeld_i_mean": "-0.0000",
+    "Hirshfeld_i_std": "0.7616"
+  },
+  {
+    "MPID": "mp-1009009",
+    "Formula": "LiF",
+    "N_atoms": 2,
+    "Gap (eV)": "0.0000",
+    "Hirshfeld_mean": "0.0000",
+    "Hirshfeld_std": "0.1819",
+    "Hirshfeld_i_mean": "0.0000",
+    "Hirshfeld_i_std": "0.9898"
+  },
+  {
+    "MPID": "mp-7",
+    "Formula": "S6",
+    "N_atoms": 6,
+    "Gap (eV)": "0.0000",
+    "Hirshfeld_mean": "-0.0000",
+    "Hirshfeld_std": "0.0000",
+    "Hirshfeld_i_mean": "0.0000",
+    "Hirshfeld_i_std": "0.0000"
+  },
+  {
+    "MPID": "mp-1077033",
+    "Formula": "Yb2Se4",
+    "N_atoms": 6,
+    "Gap (eV)": "0.0000",
+    "Hirshfeld_mean": "-0.0000",
+    "Hirshfeld_std": "0.1151",
+    "Hirshfeld_i_mean": "0.0000",
+    "Hirshfeld_i_std": "2.1808"
+  },
+  {
+    "MPID": "mp-1039305",
+    "Formula": "BiMg",
+    "N_atoms": 2,
+    "Gap (eV)": "0.0000",
+    "Hirshfeld_mean": "0.0000",
+    "Hirshfeld_std": "0.1334",
+    "Hirshfeld_i_mean": "0.0000",
+    "Hirshfeld_i_std": "1.3629"
+  }
+]

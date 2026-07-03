@@ -1,0 +1,119 @@
+{
+  "all_key_value_keys": [
+    "calc_status",
+    "extra",
+    "gap",
+    "jtype",
+    "mpid",
+    "status"
+  ],
+  "all_data_keys": [
+    "hirshfeld",
+    "hirshfeld_i",
+    "hirshfeld_i_relvol",
+    "hirshfeld_relvol"
+  ],
+  "sample_entries": [
+    {
+      "id": 1,
+      "formula": "LuRu2Sc",
+      "key_value_pairs": {
+        "mpid": "mp-973433",
+        "calc_status": "done",
+        "status": "completed",
+        "jtype": "scf",
+        "gap": 0.0,
+        "extra": "{\"_calc_forces\": [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [-0.0, -0.0, -0.0]], \"_calc_stress\": [-0.015320915054760485, -0.015320915054760485, -0.015320915054760485, -0.0, 0.0, -0.0], \"_calc_magmoms\": [0.0, 0.0, 0.0, 0.0], \"_calc_dipole\": [[0.0, 0.0, 0.0]]}"
+      },
+      "data_keys": [
+        "hirshfeld",
+        "hirshfeld_i",
+        "hirshfeld_i_relvol",
+        "hirshfeld_relvol"
+      ],
+      "n_atoms": 4,
+      "mpid": "mp-973433"
+    },
+    {
+      "id": 2,
+      "formula": "LaS",
+      "key_value_pairs": {
+        "mpid": "mp-2350",
+        "calc_status": "done",
+        "status": "completed",
+        "jtype": "scf",
+        "gap": 0.0,
+        "extra": "{\"_calc_forces\": [[-0.0, 0.0, 0.0], [0.0, -0.0, -0.0]], \"_calc_stress\": [0.0010956033917930456, 0.001095603210789281, 0.001095604015943958, -2.246943285317973e-10, -3.1831696542004616e-10, 0.0], \"_calc_magmoms\": [0.0, 0.0], \"_calc_dipole\": [[0.0, 0.0, 0.0]]}"
+      },
+      "data_keys": [
+        "hirshfeld",
+        "hirshfeld_i",
+        "hirshfeld_i_relvol",
+        "hirshfeld_relvol"
+      ],
+      "n_atoms": 2,
+      "mpid": "mp-2350"
+    },
+    {
+      "id": 3,
+      "formula": "Cu2Ti2As2Si2",
+      "key_value_pairs": {
+        "mpid": "mp-1080455",
+        "calc_status": "done",
+        "status": "completed",
+        "jtype": "scf",
+        "gap": 0.0,
+        "extra": "{\"_calc_forces\": [[0.0, -0.0, 0.00590447], [0.0, 0.0, -0.00590447], [-0.0, -0.0, 0.0], [-0.0, -0.0, -0.0], [0.0, -0.0, 0.0], [-0.0, 0.0, 0.0], [-0.0, -0.0, 0.01926613], [-0.0, 0.0, -0.01926613]], \"_calc_stress\": [-0.0005064759212344638, -0.0005064759212344638, -0.005898251501935786, 0.0, -0.0, -0.0], \"_calc_magmoms\": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], \"_calc_dipole\": [[0.0, 0.0, 0.0]]}"
+      },
+      "data_keys": [
+        "hirshfeld",
+        "hirshfeld_i",
+        "hirshfeld_i_relvol",
+        "hirshfeld_relvol"
+      ],
+      "n_atoms": 8,
+      "mpid": "mp-1080455"
+    },
+    {
+      "id": 4,
+      "formula": "Bi2TmIO4",
+      "key_value_pairs": {
+        "mpid": "mp-552738",
+        "calc_status": "done",
+        "status": "completed",
+        "jtype": "scf",
+        "gap": 0.0,
+        "extra": "{\"_calc_forces\": [[-0.0, 0.0, -0.0], [-0.0, 0.0, -0.07080913], [-0.0, 0.0, 0.07080913], [-0.0, 0.0, -0.0], [-0.0, -0.0, 0.24200827], [0.0, 0.0, -0.24200827], [-0.0, -0.0, 0.24200827], [-0.0, -0.0, -0.24200827]], \"_calc_stress\": [-0.006198192740474172, -0.006198192740474172, -0.00947122478445792, 0.0, -0.0, -0.0], \"_calc_magmoms\": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], \"_calc_dipole\": [[0.0, 0.0, 0.0]]}"
+      },
+      "data_keys": [
+        "hirshfeld",
+        "hirshfeld_i",
+        "hirshfeld_i_relvol",
+        "hirshfeld_relvol"
+      ],
+      "n_atoms": 8,
+      "mpid": "mp-552738"
+    },
+    {
+      "id": 5,
+      "formula": "Ta3Si6",
+      "key_value_pairs": {
+        "mpid": "mp-517",
+        "calc_status": "done",
+        "status": "completed",
+        "jtype": "scf",
+        "gap": 0.0,
+        "extra": "{\"_calc_forces\": [[0.0, -0.0, 0.0037032], [0.0, -0.0, -0.00206586], [0.0, -0.0, -0.00164211], [0.00027727, -0.04260172, -0.00082435], [0.03629644, -0.02069901, 0.00028512], [-0.03656573, -0.02053296, 0.00054162], [-0.00027727, 0.04260172, -0.00082435], [-0.03629644, 0.02069901, 0.00028512], [0.03656573, 0.02053296, 0.00054162]], \"_calc_stress\": [-0.027585276620708508, -0.02758265929378864, -0.046344424288830566, -0.0, -0.0, -5.165741337473397e-06], \"_calc_magmoms\": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], \"_calc_dipole\": [[0.0, 0.0, 0.0]]}"
+      },
+      "data_keys": [
+        "hirshfeld",
+        "hirshfeld_i",
+        "hirshfeld_i_relvol",
+        "hirshfeld_relvol"
+      ],
+      "n_atoms": 9,
+      "mpid": "mp-517"
+    }
+  ],
+  "calculation_parameters": {}
+}

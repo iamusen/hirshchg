@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hirshfeld Charge Database Viewer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔬 Hirshfeld Charge Database Viewer</h1>
+            <p class="subtitle">Materials Science Data Explorer</p>
+        </header>
+
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card">
+                <div class="stat-value" id="totalEntries">-</div>
+                <div class="stat-label">Total Entries</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="uniqueFormulas">-</div>
+                <div class="stat-label">Unique Formulas</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="uniqueElements">-</div>
+                <div class="stat-label">Unique Elements</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avgAtoms">-</div>
+                <div class="stat-label">Avg Atoms</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avgGap">-</div>
+                <div class="stat-label">Avg Gap (eV)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="metallicCount">-</div>
+                <div class="stat-label">Metallic</div>
+            </div>
+        </div>
+
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="🔍 Search by formula or MP-ID..." class="search-input">
+            <button id="searchBtn" class="btn btn-primary">Search</button>
+            <button id="resetBtn" class="btn btn-secondary">Reset</button>
+        </div>
+
+        <div class="table-container">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Formula</th>
+                        <th>MP-ID</th>
+                        <th>Atoms</th>
+                        <th>Gap (eV)</th>
+                        <th>Type</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="dataTable">
+                    <tr>
+                        <td colspan="8" class="loading">Loading data...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pagination" id="pagination">
+            <button id="prevBtn" class="btn btn-secondary">← Previous</button>
+            <span id="pageInfo">Page 1</span>
+            <button id="nextBtn" class="btn btn-secondary">Next →</button>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalTitle">Entry Details</h2>
+                <div id="modalBody" class="modal-body"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

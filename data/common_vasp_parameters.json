@@ -1,0 +1,34 @@
+{
+  "algo": "All",
+  "custom": {},
+  "ediff": 1e-06,
+  "encut": 500.0,
+  "gamma": false,
+  "ignore_constraints": false,
+  "ihirshfeld": 2,
+  "ismear": 0,
+  "kpar": 2,
+  "kpts": [
+    1,
+    1,
+    1
+  ],
+  "kspacing": 0.25,
+  "lasph": true,
+  "lcharg": true,
+  "lh5": true,
+  "lhirshfeld": true,
+  "lwave": true,
+  "nelm": 200,
+  "pp": "lda",
+  "prec": "Accurate",
+  "reciprocal": false,
+  "setups": {
+    "V": "_sv",
+    "Ca": "_sv",
+    "Ti": "_sv"
+  },
+  "sigma": 0.02,
+  "system": "ACW",
+  "txt": "-"
+}

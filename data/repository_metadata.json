@@ -1,0 +1,250 @@
+{
+  "title": "A comprehensive Hirshfeld and iterative-Hirshfeld dataset for 5,080 inorganic materials from first-principles calculations",
+  "dataset_version": "1.0.0",
+  "created_or_packaged_date": "2026-07-02",
+  "record_count": 5080,
+  "atomic_site_count": 31288,
+  "unique_element_count": 77,
+  "covered_elements": [
+    "Ac",
+    "Ag",
+    "Al",
+    "As",
+    "Au",
+    "B",
+    "Be",
+    "Bi",
+    "Br",
+    "C",
+    "Ca",
+    "Cd",
+    "Ce",
+    "Cl",
+    "Co",
+    "Cr",
+    "Cu",
+    "Dy",
+    "Er",
+    "Eu",
+    "F",
+    "Fe",
+    "Ga",
+    "Gd",
+    "Ge",
+    "H",
+    "Hf",
+    "Hg",
+    "Ho",
+    "I",
+    "In",
+    "Ir",
+    "Kr",
+    "La",
+    "Li",
+    "Lu",
+    "Mg",
+    "Mn",
+    "Mo",
+    "N",
+    "Na",
+    "Nd",
+    "Ne",
+    "Ni",
+    "Np",
+    "O",
+    "Os",
+    "P",
+    "Pa",
+    "Pb",
+    "Pd",
+    "Pm",
+    "Pr",
+    "Pt",
+    "Pu",
+    "Re",
+    "Rh",
+    "Ru",
+    "S",
+    "Sb",
+    "Sc",
+    "Se",
+    "Si",
+    "Sm",
+    "Sn",
+    "Ta",
+    "Tc",
+    "Te",
+    "Th",
+    "Ti",
+    "Tl",
+    "Tm",
+    "U",
+    "V",
+    "W",
+    "Yb",
+    "Zn"
+  ],
+  "atoms_per_material": {
+    "min": 1,
+    "max": 11,
+    "median": 6,
+    "mean": 6.159055118110237
+  },
+  "database_format": "ASE SQLite database",
+  "primary_database": "data/h.db",
+  "identifiers": {
+    "materials_project_id_key": "mpid"
+  },
+  "database_key_value_keys": [
+    "calc_status",
+    "extra",
+    "gap",
+    "jtype",
+    "mpid",
+    "status"
+  ],
+  "database_data_keys": [
+    "hirshfeld",
+    "hirshfeld_i",
+    "hirshfeld_i_relvol",
+    "hirshfeld_relvol"
+  ],
+  "calculation_status_counts": {
+    "status": {
+      "completed": 5080
+    },
+    "calc_status": {
+      "done": 5080
+    },
+    "jtype": {
+      "scf": 5080
+    }
+  },
+  "inclusion_criteria": [
+    "Entry has a Materials Project identifier stored as mpid.",
+    "Entry is present as a completed ASE database row in data/h.db.",
+    "Entry has status=completed, calc_status=done, and jtype=scf.",
+    "Entry contains an atomic structure readable by ASE, including chemical symbols, positions, and cell information.",
+    "Entry contains all four required Hirshfeld-related arrays: hirshfeld, hirshfeld_i, hirshfeld_relvol, and hirshfeld_i_relvol.",
+    "Each Hirshfeld-related array has a length equal to the number of atomic sites in the structure.",
+    "The material has between 1 and 11 atomic sites in the archived database entry."
+  ],
+  "exclusion_criteria": [
+    "Entries without a Materials Project identifier were not included.",
+    "Entries without completed SCF status were not included.",
+    "Entries missing any of the four Hirshfeld-related arrays were not included.",
+    "Entries with inconsistent array lengths relative to the number of atomic sites were not included.",
+    "Raw VASP output files are not included in the lightweight repository package; the extracted Hirshfeld arrays and calculation parameters are included instead."
+  ],
+  "calculation_parameters_summary": {
+    "code": "VASP",
+    "exchange_correlation_or_pseudopotential_set": "LDA",
+    "encut_ev": 500.0,
+    "kspacing_inverse_angstrom": 0.25,
+    "ediff_ev": 1e-06,
+    "ismear": 0,
+    "sigma_ev": 0.02,
+    "nelm": 200,
+    "lhirshfeld": true,
+    "ihirshfeld": 2,
+    "lasph": true
+  },
+  "file_inventory": [
+    {
+      "path": "data/h.db",
+      "size_bytes": 17928192,
+      "sha256": "aceef607702462b142eb562412bbff213dab2b03707846804b05d08fb5b87b4d"
+    },
+    {
+      "path": "data/database_statistics.json",
+      "size_bytes": 1765,
+      "sha256": "8bd05911e71e1eeac0a4cd5c667a27d2ce2324bb3f9cce6643e615b9d570e23c"
+    },
+    {
+      "path": "data/database_metadata.json",
+      "size_bytes": 4315,
+      "sha256": "6846674db035a367055c4c31335f1c3acc7f0c3ac93b0b1c3c36c03ee8de9c9a"
+    },
+    {
+      "path": "data/vasp_parameters.json",
+      "size_bytes": 506,
+      "sha256": "6aa4b71e9e9d5fc8954ffbf8029c8e66557353dbe9a38961e862938198a1a90c"
+    },
+    {
+      "path": "data/common_vasp_parameters.json",
+      "size_bytes": 506,
+      "sha256": "3d4a02a332812fa2cccd846acf4866393b98742973a9e11c8d6cbe97928497a0"
+    },
+    {
+      "path": "data/sample_table_data.json",
+      "size_bytes": 2319,
+      "sha256": "3448668e96457f16049937ba75afe8564f9d52d84e4e85dbf1e08cd0fd86e9d9"
+    },
+    {
+      "path": "data/element_coverage.csv",
+      "size_bytes": 5758,
+      "sha256": "7b13162630718ce03c556a5f8b12930713fbd88a3687ad3203060ca4db31d5a1"
+    },
+    {
+      "path": "hirshfeld_webgui_20260702_190138.tar.gz",
+      "size_bytes": 4936213,
+      "sha256": "cc2c64cfb66d36ce6516bf11196aeaf9b5a9cee602e7afd540fd4c92c93fc3ea"
+    },
+    {
+      "path": "figures/fig1_atoms_distribution.png",
+      "size_bytes": 78074,
+      "sha256": "3a8ba6cb7c9661ca01a555f8f64914d27d68b2c17d956e6deb0b37eab2780526"
+    },
+    {
+      "path": "figures/fig2_element_abundance.png",
+      "size_bytes": 120453,
+      "sha256": "b8a8a7189a254fe0e21bf66528489a1d9eecfdb5a4fb2c3e8fc2704e485a3398"
+    },
+    {
+      "path": "figures/fig3_hirshfeld_distributions.png",
+      "size_bytes": 314604,
+      "sha256": "36b26f606f72066912d576f7ad99e7113cdba7127b4b809f80593df53d8e5220"
+    },
+    {
+      "path": "figures/fig4_hirshfeld_correlation.png",
+      "size_bytes": 599934,
+      "sha256": "85a43dc579d7b36cff478c43888bae890c886109c1d8d93e449b1db476aa6ac0"
+    },
+    {
+      "path": "figures/fig5_workflow.png",
+      "size_bytes": 345150,
+      "sha256": "02ca7b36bc1cb17fc2f2973dc28743c31e252d1d48bc4fb25b3140f71ddc9b18"
+    },
+    {
+      "path": "figures/fig6_screenshot.png",
+      "size_bytes": 3454289,
+      "sha256": "f746c20ee6cef3602e32e9cfe106c2503a812e12d922b19161b4e5200e331128"
+    },
+    {
+      "path": "figures/fig7_element_periodic_coverage.png",
+      "size_bytes": 340806,
+      "sha256": "3f7041964b0c9fda143f723796274b2aa23a9fa80146c8beed98c182a42b2a91"
+    }
+  ],
+  "recommended_license": "CC BY 4.0",
+  "repository_fields_to_complete": [
+    "creators",
+    "affiliations",
+    "orcid",
+    "funding",
+    "repository_url",
+    "doi",
+    "vasp_version_if_available"
+  ],
+  "suggested_dataset_citation_elsevier": "[dataset] [Author 1], [Author 2], [Author 3], A comprehensive Hirshfeld and iterative-Hirshfeld dataset for 5,080 inorganic materials from first-principles calculations, Version 1.0.0, [Zenodo/Figshare/Mendeley Data], 2026. https://doi.org/[DOI].",
+  "datacite_recommended_citation_format": "Creator(s) (PublicationYear): Title. Version. Publisher/Repository. ResourceType. Identifier/DOI.",
+  "dataset_citation_fields_required_before_submission": {
+    "creators": "[final author list]",
+    "publication_year": "2026",
+    "title": "A comprehensive Hirshfeld and iterative-Hirshfeld dataset for 5,080 inorganic materials from first-principles calculations",
+    "version": "1.0.0",
+    "publisher_or_repository": "[Zenodo/Figshare/Mendeley Data]",
+    "resource_type": "Dataset",
+    "persistent_identifier": "https://doi.org/[DOI]"
+  }
+}
