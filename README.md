@@ -155,6 +155,5 @@ Ensure correct Python path is used: `/Users/limusen/app/anaconda3/bin/python`
 
 ---
 
-**Developer**: Claude Code  
 **Version**: 1.0.0  
 **Update Date**: 2026-07-03
