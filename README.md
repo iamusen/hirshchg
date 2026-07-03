@@ -1,6 +1,4 @@
-# Hirshfeld Charge Database Viewer
-
-A beautiful and practical Flask-based Web GUI for browsing and analyzing Hirshfeld charge analysis data from an ASE database.
+# Hirshfeld Charge Database
 
 ## 📋 Features
 
